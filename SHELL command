@@ -1,0 +1,88 @@
+# -- Executed on remote machine
+2 cd $HOME # change to your home directory
+3 pwd # print working directory
+4 mkdir mydir # make a new directory, mydir
+5 cd mydir
+6 pwd # now you are in ~/mydir
+7 touch myfile # create a blank file called myfile
+8 ls myfile
+9 ls -alrth myfile # list metadata on myfile
+10 alias ll=’ls -alrth’ # set up an alias to save typing
+11 ll myfile
+12 echo "line1" >> myfile # append via ’>>’ to a file
+13 cat myfile
+14 echo "line2" >> myfile
+15 cat myfile
+16 cd ..
+17 pwd
+18 cp mydir/myfile myfile2 # copy file into a new file
+19 cat myfile2
+20 cat mydir/myfile
+21 ls -alrth myfile2 mydir/myfile
+22 rm -i myfile2
+23 cp -av mydir newdir # -av flag ’archives’ the directory, copying timestamps
+24 rmdir mydir # won’t work because there’s a file in there
+25 rm -rf mydir # VERY dangerous command, use with caution
+26 cd newdir
+27 pwd
+28 cp myfile myfile-copy
+29 echo "line3" >> myfile
+30 echo "line4" >> myfile-copy
+31 mv myfile myfile-renamed # mv doubles as a rename
+32 ll
+33 cat myfile-renamed
+34 cat myfile-copy
+35 ll
+36 rm myfile-*
+37 ll
+cd ..
+39 ll
+40 rmdir newdird
+41 ll
+env
+env | grep "^PATH"
+3 $ echo $PATH
+
+ls- command :
+ls --help
+ls --help | less # ’pipe’ the output of ls into less
+ls -a
+ls -alrth
+alias ll=’ls -alrth’ # create an alias in bash
+ll 
+
+touch command
+touch file1
+touch file2
+ll
+ll --full-time
+touch file1
+ll --full-time # note that the file1 modification time is updated
+
+echo comand
+echo "foo"
+man echo
+echo -e "foo\n"
+echo -e "line1\nline2" > demo.txt # write directly to tempfile with ’>’
+
+cp command
+cp --help
+cp demo.txt demo2.txt
+cp -v demo.txt demo3.txt # verbose copy
+cp -a demo.txt demo-archive.txt # archival exact copy
+ll --full-time demo* # note timestamps of demo/demo-archive
+echo "a new file" > asdf.txt
+cat demo.txt
+cp asdf.txt demo.txt
+cat demo.txt # cp just clobbered the file
+alias cp=’cp -i’ # set cp to be interactive by default
+
+mv command
+mv asdf.txt asdf-new.txt
+mv -i asdf-new.txt demo.txt # prompt before clobbering
+alias mv=’mv -i’
+
+
+
+
+

@@ -1,0 +1,67 @@
+Explore different tabs at the top of this webpage
+Proxy Server Addresses comparison on avg., download/browsing speed & IEEE/research papers downloadable@ IIT Kgp
+10.3.100.148 : 8080       Y High speed download speeds
+10.3.100.209 : 8080      N Normal download speeds
+10.3.100.210 : 8080      Y Normal download speeds
+10.3.100.211 : 8080      Y High speed download speeds 
+10.3.100.212 : 8080    Y High speed download speeds
+144.16.192.213 : 8080   N Normal download speeds
+144.16.192.216 : 8080   Y Normal download speeds
+144.16.192.217: 8080     Y Normal download speeds
+144.16.192.218 : 8080  Y Official IP, Normal download speeds
+144.16.192.245 : 8080    N (Imp) Normal download speeds
+144.16.192.247 : 8080    Y (Imp) Normal download speeds
+Y IEEE/ACM/Research papers can be downloadable on these ip's  
+N cannot be downloadable on these ip's  
+
+(To download papers, within campus, avg. download speed on LAN is:25-100 Kbps. & on WiFi  is:425-500 Kbps. Alternatively search/download from DC++ if available )
+
+
+(Sample) Ip:10.7.2.1 & Subnetmask:255.255.0.0 & Gateway:10.7.1.2 & DNS server:144.16.192.55 & 144.16.192.1 
+In Windows OS, enter \\144.16.192.212 in run --> Licenced Software Repositories@CIC, IIT Kharagpur (MATLAB, MS Visual Studio, OS (Windows, Linux, Mac) etc) (mailto:alokes@cic.iitkgp.ernet.in for request of licence keys)
+http://10.7.1.82/Shared/ --> IP Lab OpenCV resources
+http://203.110.240.245 --> IIT Kgp webmail th., Yahoo's Zimbra Collaboration Suite, outside institute LAN 
+http://10.3.100.244 --> Webmail@IITkgp th., Yahoo's Zimbra Collaboration Suite within institute LAN 
+http://10.3.103.53:8180/opac --> IIT Kgp Library Online Public Access Catalogue (OPAC) Search
+http://144.16.206.211/dis --> Doctorates' Information System 
+https://erp.iitkgp.ernet.in/IIT_ERP2 --> ERP Student IIT Kgp. 
+http://noticeboard.iitkgp.ernet.in --> PG Internal Notice Board
+www.library.iitkgp.ernet.in/?q=node/28 --> Digital Libary IIT Kgp
+http://cic.iitkgp.ernet.in --> CIC@IIT Kgp
+http://intinno.iitkgp.ernet.in --> Paathshaala IIT Kgp
+http://iitkgp.org/ --> IIT Kgp alumini portal 
+http://alumni.iitkgp.ernet.in/newsite/kgpian.php --> KGPian-Quaterly Newsletter's 
+https://www.onlinesbi.com/retail/login.htm --> Online SBI banking
+https://netbanking.syndicatebank.in/netbanking --> Online Syndicate banking 
+http://turnitin.com/ <-- central="" contact="" detection="" digital="" font="" iit="" in="" kgp="" library="" online="" or="" plagiarism="" section="" subscription="">
+http://www.grammarly.com/ <-- amp="" check="" checker="" font="" grammar="" instant="" nbsp="" or="" plagiarism="" subscription="">http://www.library.iitkgp.ernet.in/?q=node/63)
+(Disable Proxy while accessing) or use 10.3.100.148 proxy to bypass disabling proxy@IIT Kgp:
+http://10.35.32.102 & http://10.35.32.91 -->VOD video on demand intranet courses link, within IIT Kharagpur
+http://10.17.250.202:8080/dspace --> Online access of IIT Kgp institute's Ph.D e-theses & Courses Exam Old Question papers.
+http://10.17.32.9/peqp --> Previous year Course Q papers (or) search in DC++, local LAN
+http://10.15.33.113/RA/RA.php -->  Comprehensive Research Information System (CRIS)  
+New On Institutional Login IP's, one can access to subscribed research papers/dissertations, theses on following sites
+http://ieeexplore.ieee.org --> IEEE Digital Library 
+http://isiknowledge.com --> ISI Web of Science citation database. 
+http://search.proquest.com (or) http://proquest.umi.com/login --> Proquest's to search dissertations & theses 
+http://www.acm.org/dl --> ACM Digital Library 
+http://scopus.com/home.url --> SCOPUS largest abstract and citation database of peer-reviewed literature 
+http://arnetminer.org/ --> Search and mining of academic social networks
+http://www.refworks.com/refshare2/default.aspx?site=040391158552000000/RWWEB1051444164/075081315079031000  --> Refworks online research management, writing, collaboration tool
+http://www.scirp.org/ --> Open Access Journals
+http://scitopia.org --> Integrated Trusted Science + Technology Research (Recommended by IEEE)
+http://jstor.org --> JSTOR, Journal archive for some journals, which goes back a century (!) or sometimes more 
+http://ncbi.nlm.nih.gov/pubmed --> PubMed, (NLM), provides access to citations from MEDLINE 
+http://liinwww.ira.uka.de/bibliography --> BibTex Bibilography 
+http://www.informatik.uni-trier.de/~ley/db --> Digital Bibliography & Library Project (DBLP) 
+http://scirus.com --> Scientifc Info. 
+http://citeseerx.ist.psu.edu --> (Beta) Scientific Literature Digital Library and Search Engine
+http://citeulike.org --> Free service for managing discovering scholarly references & organise academic papers. 
+http://researchgate.net --> Scientific Network ResearchGATE 
+http://delicious.com --> Yahoo's Social Bookmarking Site for similar research people work 
+http://visionbib.com/bibliography/contents.html --> Great Keith Price Bibliography / Annotated Computer Vision Bibliography 
+http://visionscience.com/vsList.html --> Great Visionlist mailing list.. quite useful
+http://www.wikicfp.com/cfp/ --> Wiki call for papers for conferences, workshops and journals
+https://mitx.mit.edu/ --> MIT's new online learning initiative
+http://www.coursera.org/ --> Coursera free online courses by Stanford
+http://www.udacity.com/ --> udacity online courses by greatest teachers

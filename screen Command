@@ -1,0 +1,10 @@
+command detial
+C-a + "?"
+
+window list 
+C-a + "
+
+window selection 
+C-a + '
+
+

@@ -1,0 +1,71 @@
+Emacs Shortcut:
+
+Dired Command:(ctrl + x + d )
+enter - open file
+q - close file
+C - copy file
+R - Rename file
+D - Delete File
++ - Create File
+Z - compress / decompress the file by gzip
+
+copy file : shift + c
+mark file : m; 
+mark all file/toggle file which are not marked:t
+sorting order of the directory:s;
+rename file : R
+mark all file by :t
+make directory as editiable : C-x + C-q
+replace query : M-% or (M-Shift-5)
+save changes  : C - c + C - c
+execute file : 
+	select file by :I
+	exectute file by : x
+refresh : g
+unmark file by : u
+unmark all file : shift + u; 
+search for regular expression : shift+ A 
+
+
+Buffer
+Buffer List : C-x + C-b
+Buffer Selection : C-x + b
+selecting for delecting buffer ; d
+exectue it : x
+
+
+find file
+C-x + C-f
+
+Windows :
+C-x 1 --> one window
+C-x 2 --> one window
+
+UNDO
+C-/
+C-x u
+C-_
+
+
+FILES:
+C-x C-f  -- find file
+C-x C-s  -- save file
+
+
+BUFFER
+C-x C-b  -- List of Bufffer
+C-x b    -- Switch buffer
+
+Replace
+M-x replace-string
+
+Auto Save
+M-x recove-file
+
+t
+
+AUTO SAVE
+
+
+
+
