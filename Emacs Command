@@ -63,8 +63,74 @@ Auto Save
 M-x recove-file
 
 t
+EMACS CUSTOMIZATION : 
 
-AUTO SAVE
+Emacs Set Variables :
+	M-x describe-varible 
+	give variable name :(eg: auto-save-timeout)
+	M-x set-variable
+To permanent change
+	setq auto-save-timeout 60
+or in .emacs file write
+	'(auto-save-timeout 60)
+
+in .emacs File Write:
+
+(require 'package)
+; add MELPA to repository list
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+; initialize package.el
+(package-initialize)
+
+Auto-Complete:
+Before it we have to install the package:
+open emacs
+M-x packages-list-packages
+search for auto-complete
+point the cursor to auto-complete then 
+type i
+type x
+after this copy below content to ~/.emacs file
+
+; start auto-complete with emacs
+(require 'auto-complete)
+; do default config for auto-complete
+(require 'auto-complete-config)
+(ac-config-default)
+
+
+YASNIPPET
+open emacs
+M-x packages-list-packages
+search for yasnippet
+point the cursor to yasnippet then 
+type i
+type x
+after this copy below content to ~/.emacs file
+; start yasnippet with emacs
+(require 'yasnippet)
+(yas-global-mode 1)
+; let's define a function which initializes auto-complete-c-headers and gets called for c/c++ hooks
+(defun my:ac-c-header-init ()
+  (require 'auto-complete-c-headers)
+  (add-to-list 'ac-sources 'ac-source-c-headers)
+  (add-to-list 'achead:include-directories '"/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include")
+)
+; now let's call this function from c/c++ hooks
+(add-hook 'c++-mode-hook 'my:ac-c-header-init)
+(add-hook 'c-mode-hook 'my:ac-c-header-init)
+
+Iedit:
+open emacs
+M-x packages-list-packages
+search for Iedit
+point the cursor to Iedit then 
+type i
+type x
+after this copy below content to ~/.emacs file
+; start Iedit with emacs
+;Fix iedit bug in Mac
+(define-key global-map (kbd "C-c ;") 'iedit-mode)
 
 
 
