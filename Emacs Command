@@ -178,3 +178,22 @@ Color Customization:
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+
+
+
+
+Hide And Show Block From Shortcut Key:
+write this is in .emacs file
+;adding hide show
+
+
+(load-library "hideshow")
+(add-hook 'java-mode-hook
+  (lambda()
+    (local-set-key (kbd "C-c -") 'hs-show-block)
+    (local-set-key (kbd "C-c +")  'hs-hide-block)
+    (local-set-key (kbd "C-c <up>")    'hs-hide-all)
+    (local-set-key (kbd "C-c <down>")  'hs-show-all)
+    (hs-minor-mode t)))
+
+
