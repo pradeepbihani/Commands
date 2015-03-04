@@ -1,0 +1,10 @@
+ssh -X hostname@IPaddress
+
+for Message: 
+DISPLAY=:0 notify-send "TEST MESSAGE."
+
+OR
+
+alias chat='DISPLAY=:0 notify-send'
+chat "TEST MESSAGE."
+
