@@ -12,3 +12,6 @@ CHAT DYNAMICALLY
 On PC 1, type: nc -l 55555
 On PC 2, type: nc $IP 55555, where $IP equals the local IP address of PC 1 [e.x. 192.168.2.50]
 
+SCP : 
+scp from(location) to(username@address:/location_where_to_copy)
+
